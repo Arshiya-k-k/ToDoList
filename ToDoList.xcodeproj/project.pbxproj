@@ -14,6 +14,7 @@
 		BDF5257D2C5A2DA70067100B /* ToDoListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF5257C2C5A2DA70067100B /* ToDoListTests.swift */; };
 		BDF525872C5A2DA70067100B /* ToDoListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF525862C5A2DA70067100B /* ToDoListUITests.swift */; };
 		BDF525892C5A2DA70067100B /* ToDoListUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF525882C5A2DA70067100B /* ToDoListUITestsLaunchTests.swift */; };
+		BDF525962C5A2F6B0067100B /* NewToDoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF525952C5A2F6B0067100B /* NewToDoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		BDF525822C5A2DA70067100B /* ToDoListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDF525862C5A2DA70067100B /* ToDoListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListUITests.swift; sourceTree = "<group>"; };
 		BDF525882C5A2DA70067100B /* ToDoListUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BDF525952C5A2F6B0067100B /* NewToDoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewToDoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				BDF5256B2C5A2DA50067100B /* ToDoListApp.swift */,
 				BDF5256D2C5A2DA50067100B /* ContentView.swift */,
+				BDF525952C5A2F6B0067100B /* NewToDoView.swift */,
 				BDF5256F2C5A2DA60067100B /* Assets.xcassets */,
 				BDF525712C5A2DA60067100B /* Preview Content */,
 			);
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDF525962C5A2F6B0067100B /* NewToDoView.swift in Sources */,
 				BDF5256E2C5A2DA50067100B /* ContentView.swift in Sources */,
 				BDF5256C2C5A2DA50067100B /* ToDoListApp.swift in Sources */,
 			);

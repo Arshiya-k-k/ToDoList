@@ -8,16 +8,41 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var showNewTask = false
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            HStack{
+                Text("Summer Bucket List")
+                    .font(.title)
+                    .fontWeight(.medium)
+            
+                Spacer()
+                
+                Button {
+                    withAnimation{
+                        self.showNewTask = true
+                    }
+                } label: {
+                    Text("🔆")
+                        .font(.title)
+                        .fontWeight(.semibold)
+                    
+                    
+                
+                }
+            }//hstack
+            
+            .padding()
+            Spacer()
+            
+        }//vstack
+        
+        if showNewTask {
+           NewToDoView()
         }
-        .padding()
-    }
-}
+        
+    }//body
+}//struct
 
 #Preview {
     ContentView()
